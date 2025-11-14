@@ -14,6 +14,11 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
 /* Add your custom styles here */
 
+main#site-content {
+  max-width: 1300px;
+  margin: 0px auto;
+}
+
 .fGmyhD {
   color: rgb(255, 255, 255);
   font-size: 16px;
@@ -33,9 +38,15 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
   text-transform: capitalize;
 }
 
-
 a.freeAnalysis__FreeButton-sc-4jhjgm-0.cNcMyS:hover {
-      text-decoration: none !important;
+  text-decoration: none !important;
   background: #fff;
   color: #000;
+}
+
+h1.entry-title {
+  font-weight: 900;
+  font-size: 44px;
+  color: rgb(164, 22, 26);
+  text-align: center;
 }
