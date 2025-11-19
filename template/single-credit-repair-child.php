@@ -15,8 +15,8 @@
         </div><!-- .post-inner -->
 
         <div class="location-reviews">
-            <h2 class="LBVfu">Reviews</h2>
-            <?php echo do_shortcode('[elementor-template id="6421"]'); ?>
+            <h2 class="LBVfu">FAQS</h2>
+            <?php echo do_shortcode('[elementor-template id="6974"]'); ?>
         </div>
 
 
