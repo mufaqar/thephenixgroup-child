@@ -71,7 +71,7 @@ function our_serices_shortcode() {
 
     ob_start(); ?>
 
-    <h2><?php the_title()?></h2>
+    <h2>What Credit Repair Services We Offer In <?php the_title()?></h2>
 
     <?php echo do_shortcode('[elementor-template id="6978"]'); ?>
 
