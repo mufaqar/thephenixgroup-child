@@ -69,10 +69,14 @@ add_shortcode('free_analysis_buttons', 'free_analysis_buttons_shortcode');
 
 function our_serices_shortcode() {
     ob_start(); ?>
-    <h2>What Credit Repair Services We Offer In <?php echo get_post_meta(get_the_ID(), "location", true); ?></h2>
     <?php echo do_shortcode('[elementor-template id="6978"]'); ?>
     <?php return ob_get_clean();
 }
 add_shortcode('our_services', 'our_serices_shortcode');
+
+function show_location_shortcode() {
+    return get_post_meta(get_the_ID(), 'location', true );
+}
+add_shortcode('location_name', 'show_location_shortcode');
 
 
