@@ -34,13 +34,8 @@ function hello_elementor_child_scripts_styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );
-
-
-
 function free_analysis_buttons_shortcode() {
-
     ob_start(); ?>
-
     <style>
         .toggle-wrapper.nav-toggle-wrapper.has-expanded-menu {
             text-align: center;
@@ -51,10 +46,9 @@ function free_analysis_buttons_shortcode() {
             text-decoration: none;
         }
     </style>
-
     <div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu 123">
         <button class="freeAnalysis__Button-sc-4jhjgm-1 fGmyhD" data-target="#myModal" data-toggle="modal">
-            Free Analysis
+            Free Analysis 01
         </button>
         <a href="tel:9726306112" class="freeAnalysis__FreeButton-sc-4jhjgm-0 cNcMyS">
             Call Now
