@@ -47,16 +47,13 @@ function free_analysis_buttons_shortcode() {
         }
     </style>
     <div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu 123">
-        <button class="freeAnalysis__Button-sc-4jhjgm-1 fGmyhD" data-target="#myModal" data-toggle="modal">
+        <button class="freeAnalysis__Button-sc-4jhjgm-1 fGmyhD" onclick="elementorProFrontend.modules.popup.showPopup({ id: 7666 }); return false;">
             Free Analysis
         </button>
         <a href="tel:9726306112" class="freeAnalysis__FreeButton-sc-4jhjgm-0 cNcMyS">
             Call Now
         </a>
 
-        <a href="#" onclick="elementorProFrontend.modules.popup.showPopup({ id: 7666 }); return false;">
-    Open Popup
-</a>
     </div>
 
     <?php return ob_get_clean();
